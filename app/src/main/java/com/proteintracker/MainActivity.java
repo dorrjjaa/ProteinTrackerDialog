@@ -15,6 +15,8 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+
         private View.OnClickListener tableButtonListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button proteinBtn = (Button) findViewById(R.id.proteinButton);
         proteinBtn.setOnClickListener(proteinButtonListener);
+
+
 
         Button tableBtn = (Button) findViewById(R.id.tableButton);
         tableBtn.setOnClickListener(tableButtonListener);

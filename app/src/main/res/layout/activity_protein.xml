@@ -37,6 +37,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enter"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:text="Settings" />
+
     </LinearLayout>
 
 
@@ -115,5 +122,11 @@
             android:text="75g"
             android:textSize="16sp"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
 
 </LinearLayout>
